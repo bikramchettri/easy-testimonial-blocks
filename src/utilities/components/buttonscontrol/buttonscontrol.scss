@@ -1,0 +1,27 @@
+.etb-buttons-control {
+	margin: 16px 0;
+	.buttons-group {
+		display: flex;
+		align-items: stretch;
+		border: 1px solid #ddd;
+		border-radius: 4px;
+		overflow: hidden;
+		box-sizing: border-box;
+	}
+	.single-btn {
+		width: 100%;
+		background: #fff;
+		border: none;
+		padding: 8px;
+		box-sizing: border-box;
+		cursor: pointer;
+		&.active {
+			background: #e6e6e6;
+			color: #007cba;
+		}
+	}
+	.single-btn:nth-child(2) {
+		border-left: 1px solid #ddd;
+		border-right: 1px solid #ddd;
+	}
+}

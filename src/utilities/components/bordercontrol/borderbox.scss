@@ -1,0 +1,13 @@
+.etb-border-control {
+	.components-select-control {
+		flex-direction: row !important;
+		align-items: center;
+	}
+	.components-select-control .components-input-control__container {
+		width: 110px !important;
+		flex: unset;
+	}
+	.border-style {
+		margin: 24px 0;
+	}
+}

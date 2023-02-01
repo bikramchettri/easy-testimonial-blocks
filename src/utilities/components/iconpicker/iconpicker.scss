@@ -1,0 +1,63 @@
+.etb-icon-picker {
+	.icons-list {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		border: 1px solid #e0e0e0;
+		padding: 10px;
+		box-sizing: border-box;
+		gap: 10px;
+
+		.icon {
+			background: none;
+			border: 1px solid #e0e0e0;
+			cursor: pointer;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			padding: 10px;
+			&.active-icon {
+				border-color: #5c4fdb !important;
+				svg {
+					fill: #5c4fdb;
+				}
+			}
+		}
+
+		.icon svg {
+			width: 45px;
+		}
+	}
+
+	.icon-header {
+		display: flex;
+		width: 100%;
+		align-items: stretch;
+		justify-content: space-between;
+		background: none;
+		border: 1px solid #e0e0e0;
+		margin-bottom: -1px;
+		padding: 0;
+		box-sizing: border-box;
+		cursor: pointer;
+	}
+
+	.selected-icon {
+		width: 40px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.selected-icon svg {
+		width: 18px;
+	}
+
+	.icon-header span.dashicon {
+		display: block;
+		width: 36px;
+		border-left: 1px solid #e0e0e0;
+		height: 36px;
+		line-height: 36px;
+		text-align: center;
+	}
+}

@@ -1,0 +1,34 @@
+.etb-tab-panel {
+	.etb_tab {
+		width: 100%;
+		justify-content: center;
+		border-top: 1px solid #ccc;
+	}
+	.etb_tab.is-active {
+		border-top: 2px solid #5c4fdb;
+		background: #e6e3fe;
+	}
+	.etb_general {
+		border-right: 1px solid #ccc;
+	}
+
+	.components-tab-panel__tabs-item.is-active {
+		box-shadow: none !important;
+	}
+
+	// help text
+	.components-base-control__help {
+		font-style: italic;
+	}
+
+	// label
+	.etb-label {
+		margin: 0 0 8px;
+		font-size: 11px;
+		font-weight: 500;
+		text-transform: uppercase;
+		&.no-margin {
+			margin: 0 !important;
+		}
+	}
+}
