@@ -4,7 +4,7 @@
  * Description:       A collection of custom Gutenberg blocks developed with native components to showcase client testimonials.
  * Requires at least: 5.7
  * Requires PHP:      7.0
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            Zakaria Binsaifullah
  * Author URI:        https://makegutenblock.com
  * License:           GPL-2.0-or-later
@@ -51,18 +51,18 @@ final class ETB_BLOCKS_CLASS {
 		add_action( 'enqueue_block_assets', [ $this, 'etb_external_libraries' ] );
 
 		// redirect users to admin page
-		// add_action( 'activated_plugin', [ $this, 'etb_redirect_to_admin_page' ] );
+		add_action( 'activated_plugin', [ $this, 'etb_redirect_to_admin_page' ] );
 
 	}
 
-	// /**
-	//  * Redirect users to admin page
-	//  */
-	// public function etb_redirect_to_admin_page($plugin){
-	// 	if( $plugin == plugin_basename( __FILE__ ) ) {
-	// 		exit( wp_redirect( admin_url( 'tools.php?page=etb-blocks' ) ) );
-	// 	}
-	// }
+	/**
+	 * Redirect users to admin page
+	 */
+	public function etb_redirect_to_admin_page($plugin){
+		if( $plugin == plugin_basename( __FILE__ ) ) {
+			exit( wp_redirect( admin_url( 'tools.php?page=etb-blocks' ) ) );
+		}
+	}
 
 	/**
 	 * Initialize the plugin
@@ -80,7 +80,7 @@ final class ETB_BLOCKS_CLASS {
 	 * Define the plugin constants
 	 */
 	private function etb_define_constants() {
-		define( 'ETB_VERSION', '1.0.0' );
+		define( 'ETB_VERSION', '1.0.1' );
 		define( 'ETB_URL', plugin_dir_url( __FILE__ ) );
 		define( 'ETB_INC_URL', ETB_URL . 'includes/' );		
 	}

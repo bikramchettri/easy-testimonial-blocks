@@ -79,7 +79,7 @@ class ETB_Admin_Page {
                                                     <?php _e( 'Watch the video tutorial to learn how to use the plugin. It will help you start your own design quickly.', 'easy-testimonial-blocks' ); ?>
                                                 </p>
                                                 <div class="video__container">
-                                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/YteoGr18R_Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/4J7tbJ3NQWQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                                 </div>
                                             </div>
                                             <div class="tab__panel_right">

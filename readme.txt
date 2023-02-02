@@ -3,8 +3,8 @@ Contributors: binsaifullah
 Tags: testimonial, review, testimonial block, gutenberg block, custom block, review block
 Requires at least: 5.6
 Tested up to: 6.1.1
-Stable tag: 1.0.0
-Requires PHP: 5.4
+Stable tag: 1.0.1
+Requires PHP: 7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -13,6 +13,9 @@ A collection of custom Gutenberg blocks developed with native components to show
 == Description ==
 
 **Easy Testimonial Blocks** - is a collection of custom Gutenberg blocks developed with native components to showcase **client testimonials**. It provides custom Gutenberg blocks in your block editor so that you can easily show your customers review.
+
+### Video Tutorial
+[youtube http://www.youtube.com/watch?v=4J7tbJ3NQWQ]
 
 ### Key Features
 * **Built with Gutenberg Native Components**
@@ -58,6 +61,9 @@ No, you don't need to have any coding knowledge.
 
 
 == Changelog ==
+**1.0.1**
+* Change the block title 
+* Add admin support page
 **1.0.0**
 * Initial release
 
